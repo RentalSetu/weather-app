@@ -23,7 +23,7 @@ const Header = () => {
     //   //   }
     //   // }
     fetch(
-      `http://api.weatherstack.com/current?access_key=${accessKey}&query=India`
+      `http://api.weatherstack.com/current?access_key=${accessKey}&query=India, Rajasthan,Udaipur`
     )
       .then((res) => res.json())
       .then((data) => {
